@@ -123,7 +123,7 @@ int main() {
     }
 
     /* ριεν δριξεμφιδ */
-   
+
     printf("\n=== Simulation Ended ===\n");
     freeIntersection(&myIntersection);
 
