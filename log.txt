@@ -1,0 +1,82 @@
+=========================================
+   TRAFFIC SIMULATION EVENT LOG (DES)    
+=========================================
+Max Ticks: 25 | Green Duration: 5
+
+[TICK 01] ARRIVAL  : Vehicle N-6550 joined N lane.
+[TICK 01] ARRIVAL  : Vehicle S-2443 joined S lane.
+[TICK 01] ARRIVAL  : Vehicle E-0880 joined E lane.
+[TICK 01] ARRIVAL  : Vehicle W-1312 joined W lane.
+[TICK 01] DEPARTURE: Vehicle N-6550 passed from N (Waited 0 ticks).
+[TICK 02] ARRIVAL  : Vehicle S-8579 joined S lane.
+[TICK 02] ARRIVAL  : Vehicle W-0727 joined W lane.
+[TICK 03] ARRIVAL  : Vehicle N-6087 joined N lane.
+[TICK 03] ARRIVAL  : Vehicle S-6194 joined S lane.
+[TICK 03] ARRIVAL  : Vehicle E-5502 joined E lane.
+[TICK 03] DEPARTURE: Vehicle N-6087 passed from N (Waited 0 ticks).
+[TICK 05] ARRIVAL  : Vehicle S-2815 joined S lane.
+[TICK 05] ARRIVAL  : Vehicle E-5773 joined E lane.
+[TICK 05] ARRIVAL  : Vehicle W-9542 joined W lane.
+[TICK 05] LIGHT    : Green light changed to S lane.
+[TICK 06] ARRIVAL  : Vehicle N-1035 joined N lane.
+[TICK 06] DEPARTURE: Vehicle S-2443 passed from S (Waited 5 ticks).
+[TICK 07] ARRIVAL  : Vehicle N-1804 joined N lane.
+[TICK 07] DEPARTURE: Vehicle S-8579 passed from S (Waited 5 ticks).
+[TICK 08] ARRIVAL  : Vehicle S-1134 joined S lane.
+[TICK 08] ARRIVAL  : Vehicle W-4068 joined W lane.
+[TICK 08] DEPARTURE: Vehicle S-6194 passed from S (Waited 5 ticks).
+[TICK 09] ARRIVAL  : Vehicle N-6721 joined N lane.
+[TICK 09] DEPARTURE: Vehicle S-2815 passed from S (Waited 4 ticks).
+[TICK 10] ARRIVAL  : Vehicle S-7041 joined S lane.
+[TICK 10] DEPARTURE: Vehicle S-1134 passed from S (Waited 2 ticks).
+[TICK 10] LIGHT    : Green light changed to W lane.
+[TICK 11] DEPARTURE: Vehicle W-1312 passed from W (Waited 10 ticks).
+[TICK 12] ARRIVAL  : Vehicle W-5602 joined W lane.
+[TICK 12] DEPARTURE: Vehicle W-0727 passed from W (Waited 10 ticks).
+[TICK 13] ARRIVAL  : Vehicle N-7420 joined N lane.
+[TICK 13] ARRIVAL  : Vehicle E-1838 joined E lane.
+[TICK 13] ARRIVAL  : Vehicle W-9177 joined W lane.
+[TICK 13] DEPARTURE: Vehicle W-9542 passed from W (Waited 8 ticks).
+[TICK 14] ARRIVAL  : Vehicle N-0962 joined N lane.
+[TICK 14] ARRIVAL  : Vehicle E-4908 joined E lane.
+[TICK 14] DEPARTURE: Vehicle W-4068 passed from W (Waited 6 ticks).
+[TICK 15] ARRIVAL  : Vehicle S-1136 joined S lane.
+[TICK 15] ARRIVAL  : Vehicle E-5038 joined E lane.
+[TICK 15] ARRIVAL  : Vehicle W-3924 joined W lane.
+[TICK 15] DEPARTURE: Vehicle W-5602 passed from W (Waited 3 ticks).
+[TICK 15] LIGHT    : Green light changed to E lane.
+[TICK 16] ARRIVAL  : Vehicle S-3072 joined S lane.
+[TICK 16] ARRIVAL  : Vehicle W-3511 joined W lane.
+[TICK 16] DEPARTURE: Vehicle E-0880 passed from E (Waited 15 ticks).
+[TICK 17] ARRIVAL  : Vehicle N-5722 joined N lane.
+[TICK 17] ARRIVAL  : Vehicle S-2078 joined S lane.
+[TICK 17] ARRIVAL  : Vehicle E-0350 joined E lane.
+[TICK 17] DEPARTURE: Vehicle E-5502 passed from E (Waited 14 ticks).
+[TICK 18] ARRIVAL  : Vehicle N-9291 joined N lane.
+[TICK 18] ARRIVAL  : Vehicle E-5161 joined E lane.
+[TICK 18] DEPARTURE: Vehicle E-5773 passed from E (Waited 13 ticks).
+[TICK 19] ARRIVAL  : Vehicle N-1626 joined N lane.
+[TICK 19] ARRIVAL  : Vehicle E-3754 joined E lane.
+[TICK 19] DEPARTURE: Vehicle E-1838 passed from E (Waited 6 ticks).
+[TICK 20] ARRIVAL  : Vehicle N-2242 joined N lane.
+[TICK 20] ARRIVAL  : Vehicle W-0224 joined W lane.
+[TICK 20] DEPARTURE: Vehicle E-4908 passed from E (Waited 6 ticks).
+[TICK 20] LIGHT    : Green light changed to N lane.
+[TICK 21] ARRIVAL  : Vehicle N-1045 joined N lane.
+[TICK 21] ARRIVAL  : Vehicle S-9521 joined S lane.
+[TICK 21] ARRIVAL  : Vehicle E-9609 joined E lane.
+[TICK 21] DEPARTURE: Vehicle N-1035 passed from N (Waited 15 ticks).
+[TICK 22] ARRIVAL  : Vehicle N-6011 joined N lane.
+[TICK 22] ARRIVAL  : Vehicle W-5240 joined W lane.
+[TICK 22] DEPARTURE: Vehicle N-1804 passed from N (Waited 15 ticks).
+[TICK 23] ARRIVAL  : Vehicle N-6726 joined N lane.
+[TICK 23] ARRIVAL  : Vehicle W-2781 joined W lane.
+[TICK 23] DEPARTURE: Vehicle N-6721 passed from N (Waited 14 ticks).
+[TICK 24] ARRIVAL  : Vehicle E-0898 joined E lane.
+[TICK 24] DEPARTURE: Vehicle N-7420 passed from N (Waited 11 ticks).
+[TICK 25] ARRIVAL  : Vehicle N-4898 joined N lane.
+[TICK 25] ARRIVAL  : Vehicle S-7542 joined S lane.
+[TICK 25] DEPARTURE: Vehicle N-0962 passed from N (Waited 11 ticks).
+[TICK 25] LIGHT    : Green light changed to S lane.
+
+=== SIMULATION ENDED ===
