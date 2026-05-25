@@ -1,9 +1,9 @@
 --- Last Run Statistics ---
 Total Vehicles Generated      : 48
-Total Vehicles Passed         : 22
-Vehicles Still Waiting in Lane: 26
-Combined Wait Time (All Cars) : 178 ticks
-Average Wait Time Per Car     : 8.09 ticks
+Total Vehicles Passed         : 21
+Vehicles Still Waiting in Lane: 27
+Combined Wait Time (All Cars) : 180 ticks
+Average Wait Time Per Car     : 8.57 ticks
 Max Queue Length (Single Lane): 10
 Busiest Lane (Peak Record)    : North (10 cars)
-Final Queues Status           : [ North:8 | South:6 | East:6 | West:6 ]
+Final Queues Status           : [ North:8 | South:6 | East:6 | West:7 ]
