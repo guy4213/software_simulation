@@ -6,6 +6,17 @@
 #include <string.h>
 #include <time.h> // time values for sleep on Linux
 
+/*
+ * portability.h
+ *
+ * Notes: small portability helpers.
+ * - Keeps the same source compatible with MSVC and POSIX (Linux/macOS).
+ * - On POSIX we provide small wrappers (`fopen_s`, `sscanf_s`, `Sleep`) so
+ *   the rest of the code can use MSVC-like APIs without many #ifdefs.
+ * - Quick exercise: remove the shim and try compiling on Windows to see which
+ *   calls break and why.
+ */
+
 #if defined(_WIN32) || defined(_WIN64)
 #include <windows.h> // Windows API, including Sleep
 #else
