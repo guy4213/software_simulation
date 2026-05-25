@@ -23,7 +23,7 @@ void initIntersection(Intersection *intersection)
 
 /*
  * initIntersection
- * Tip: zeroes each lane and sets the initial green direction.
+ * Tip: Zeroes each lane and sets the initial green direction.
  * - No allocations here; just setup the structure for use.
  */
 
@@ -218,5 +218,4 @@ void drawVisualIntersection(Intersection *intersection, int visibleCars)
 /*
  * drawVisualIntersection
  * Tip: prints an ASCII map of the intersection.
- * - Try changing layout or showing plate IDs for debugging.
  */

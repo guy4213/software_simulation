@@ -152,7 +152,7 @@ void runSimulation(int maxTicks, int greenDuration, int animSpeed, int visibleCa
     if (logFile != NULL)
     {
         fprintf(logFile, "=========================================\n");
-        fprintf(logFile, "   TRAFFIC SIMULATION EVENT LOG (DES)    \n");
+        fprintf(logFile, "      TRAFFIC SIMULATION EVENT LOG    \n");
         fprintf(logFile, "=========================================\n");
         fprintf(logFile, "Max Ticks: %d | Green Duration: %d\n\n", maxTicks, greenDuration);
         fflush(logFile);
@@ -221,13 +221,13 @@ void runSimulation(int maxTicks, int greenDuration, int animSpeed, int visibleCa
     printf("===================================================\n");
 
     saveStatsToFile(*stats, vehiclesRemaining);
-    printf("\n[!] Event log saved successfully to log.txt\n");
-    printf("Press Enter to return to menu...");
+    printf("\n[!] Simulation summary saved successfully to stats.txt\n");
+    printf("[!] Event log saved successfully to log.txt\n");
+    printf("\nPress Enter to return to menu...");
     getchar();
 }
 
 /*
  * runSimulation
  * Tip: main simulation loop — read arrivals, handle events, update display, log.
- * - Good exercise: add a headless mode to run many simulations and collect stats.
  */
