@@ -93,15 +93,26 @@ void handleDepartureEvent(Intersection *intersection, int tick, int maxTicks, Ad
 
 void handleLightChangeEvent(Intersection *intersection, int greenDuration, int tick, FILE *logFile)
 {
-    Direction allDirs[4] = {NORTH, SOUTH, EAST, WEST};
     intersection->greenTicksLeft--;
     if (intersection->greenTicksLeft <= 0)
     {
         Direction newDirection;
-        do
+        switch (intersection->currentGreen)
         {
-            newDirection = allDirs[rand() % 4];
-        } while (newDirection == intersection->currentGreen);
+        case NORTH:
+            newDirection = EAST;
+            break;
+        case EAST:
+            newDirection = SOUTH;
+            break;
+        case SOUTH:
+            newDirection = WEST;
+            break;
+        case WEST:
+        default:
+            newDirection = NORTH;
+            break;
+        }
         intersection->currentGreen = newDirection;
         intersection->greenTicksLeft = greenDuration;
         if (logFile != NULL)
@@ -115,7 +126,7 @@ void handleLightChangeEvent(Intersection *intersection, int greenDuration, int t
 /*
  * handleLightChangeEvent
  * Tip: decrements the green-timer and picks a new green lane when time runs out.
- * - Currently picks randomly; try round-robin for fairer scheduling.
+ * - Uses round-robin ordering for deterministic scheduling.
  */
 
 void runSimulation(int maxTicks, int greenDuration, int animSpeed, int visibleCars, Intersection *intersection, AdvancedStats *stats, Queue *passedList)

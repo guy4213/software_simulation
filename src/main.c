@@ -14,7 +14,7 @@
 
 int main()
 {
-    srand((unsigned int)time(NULL));
+    srand(1u);
 
     int maxTicks = 20;
     int greenDuration = 4;
@@ -46,8 +46,11 @@ int main()
 
         if (scanf_s("%d", &choice) != 1)
         {
-            printf("Invalid input. Exiting.\n");
-            break;
+            printf("Invalid input. Please enter a number.\n");
+            int ch;
+            while ((ch = getchar()) != '\n' && ch != EOF)
+                ;
+            continue;
         }
         while (getchar() != '\n')
             ;
